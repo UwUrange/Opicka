@@ -1,0 +1,102 @@
+.center {
+  margin-top: -300px;
+  overflow: hidden;
+}
+
+body {
+  background: rgb(149, 143, 255);
+  background: linear-gradient(
+    90deg,
+    rgb(255, 169, 143) 0%,
+    rgb(95, 78, 255) 35%,
+    rgba(255, 112, 24, 1) 100%
+  );
+}
+
+.headlogo {
+  width: 1428px;
+  background: rgb(255, 255, 255);
+  padding: 50px;
+  margin: 0 auto;
+  overflow: hidden;
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.2);
+}
+
+.lead {
+  height: 400px;
+  width: 300px;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 50px;
+  margin-left: auto;
+  overflow: hidden;
+  margin-top: -170px;
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.151);
+}
+
+.leadlogo {
+  margin-top: auto;
+  margin-right: auto;
+}
+
+.click {
+  height: 420px;
+  width: 420px;
+  background: rgba(255, 255, 255, 0.15);
+  padding: 50px;
+  margin-right: auto;
+  margin-top: -460px;
+  overflow: hidden;
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.15);
+}
+
+.clickme {
+  position: relative;
+  top: -900px;
+  margin-left: auto;
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+}
+
+#clicky {
+  font-size: 80px;
+  text-anchor: start;
+  position: relative;
+  top: -1400px;
+  right: -295px;
+  color: aliceblue;
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 5px 5px rgba(0, 0, 0, 0.349);
+  display: inline-block;
+  width: 100px;
+  text-align: right;
+}
+#usrn {
+  font-size: 40px;
+  text-anchor: start;
+  position: relative;
+  top: -600px;
+  right: -1100px;
+  color: aliceblue;
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 5px 5px rgba(0, 0, 0, 0.349);
+  display: inline-block;
+  width: 100px;
+  text-align: right;
+}
+#clickier {
+  font-size: 40px;
+  text-anchor: start;
+  position: relative;
+  top: -600px;
+  right: -1200px;
+  color: rgb(252, 231, 137);
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 5px 5px rgba(0, 0, 0, 0.349);
+  display: inline-block;
+  width: 100px;
+  text-align: right;
+}
