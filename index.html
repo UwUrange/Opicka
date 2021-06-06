@@ -18,21 +18,20 @@
     </div>
     <header><div class="headlogo"></div></header>
     <div class="lead"></div>
-    <script>
-      var clicky = 0;
-
-      function onClick() {
-        clicky += 1;
-        var clickier = clicky;
-        document.getElementById("clicky").innerHTML = clicky;
-        clickier = clicky;
-        document.getElementById("clickier").innerHTML = clickier;
-      }
-    </script>
-    <button style="text-align: center" class="clickme" onClick="onClick()  ">
-      <img src="circle.png" />
-    </button>
+    <p>
+      <button
+        style="text-align: center"
+        onClick="onClick()"
+      >
+        <img src="cube1.png" id="myImage" onclick="changeImage()" />
+      </button>
+    </p>
+    <p><a id="bunnycost">30</a></p>
     <p><a id="clicky">0</a></p>
+    <button class="upgrade" onClick="Bunnygrade()">
+      <img src="bunny.png" />
+      <img src="bunny1.png" class="img-top" />
+    </button>
   </body>
 </html>
 
