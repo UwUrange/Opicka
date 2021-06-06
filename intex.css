@@ -1,6 +1,5 @@
 .center {
   margin-top: -20vh;
-  margin-top: -20vh;
 }
 
 body {
@@ -18,7 +17,7 @@ body {
   height: 2vh;
   background: rgb(255, 255, 255);
   padding: 7vh;
-  margin-top: -21em;
+  margin-top: -22em;
   margin-bottom: 2em;
   box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.2);
 }
@@ -30,33 +29,27 @@ body {
   padding: 50px;
   margin-top: -0em;
 
-  margin-left: 70%;
+  margin-left: 35%;
   box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.151);
 }
 
 .leadlogo {
-  position: sticky;
-  object-fit: cover;
-  align-self: flex-start;
-  height: auto;
-  margin-top: -45rem;
-  margin-left: 63em;
-  max-height: -45rem;
+  margin-top: -22em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  text-anchor: start;
+  color: aquamarine;
+  text-shadow: 5px 5px rgba(0, 0, 0, 0.13);
+  text-decoration: underline;
 }
-
-.click {
-  height: 420px;
-  width: 420px;
-  background: rgba(255, 255, 255, 0.15);
-  padding: 50px;
-  margin-top: -33%;
-  margin-left: 7%;
-  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.15);
+.leadlogo:hover {
+  color: rgb(255, 186, 97);
 }
-
 .clickme {
-  margin-top: -21%;
-  margin-left: 7.5%;
+  position: -webkit-sticky;
+  margin-top: -35em;
+  margin-left: 31%;
+  align-self: center;
   background-color: Transparent;
   background-repeat: no-repeat;
   border: none;
@@ -66,38 +59,12 @@ body {
 }
 
 #clicky {
+  margin-top: -6.5em;
+  margin-left: 44%;
   font-size: 80px;
   text-anchor: start;
   position: relative;
-  top: -500px;
-  right: -295px;
   color: aliceblue;
-  font-family: Arial, Helvetica, sans-serif;
-  text-shadow: 5px 5px rgba(0, 0, 0, 0.349);
-  display: inline-block;
-  width: 100px;
-  text-align: right;
-}
-#usrn {
-  font-size: 40px;
-  text-anchor: start;
-  position: relative;
-  top: -600px;
-  right: -1100px;
-  color: aliceblue;
-  font-family: Arial, Helvetica, sans-serif;
-  text-shadow: 5px 5px rgba(0, 0, 0, 0.349);
-  display: inline-block;
-  width: 100px;
-  text-align: right;
-}
-#clickier {
-  font-size: 40px;
-  text-anchor: start;
-  position: relative;
-  top: -600px;
-  right: -1200px;
-  color: rgb(252, 231, 137);
   font-family: Arial, Helvetica, sans-serif;
   text-shadow: 5px 5px rgba(0, 0, 0, 0.349);
   display: inline-block;
